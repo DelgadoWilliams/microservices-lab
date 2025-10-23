@@ -1,0 +1,31 @@
+# 🔑 Archivos sensibles (¡NO DEBEN SUBIRSE NUNCA!)
+.env 
+*.key
+*.pem
+
+# ⚙️ Entornos de Python y archivos generados
+venv/
+env/
+__pycache__/
+*.pyc
+
+# 📦 Logs, Bases de Datos y Caché Local
+*.sqlite3
+db.sqlite3
+pgdata/ 
+test_connection.py # Archivo de prueba creado en el Mini-reto [cite: 85]
+
+# 🐳 Archivos específicos de Docker/Contenedores
+# Opcional: Descomentar si no quieres guardar logs de Docker localmente
+# docker-compose.yml 
+# docker-compose.*.yml
+
+# 🖥️ Archivos del Editor/Sistema Operativo
+.DS_Store
+.vscode/
+
+# 🌐 Frontend (Archivos generados por React/Node.js)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.parcel-cache/
